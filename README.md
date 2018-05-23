@@ -6,10 +6,7 @@ Dotfiles
 
     .
     ├── .bash_aliases
-    ├── .bash_profile
     ├── .bashrc
-    ├── .extend.bashrc
-    ├── .fonts.conf
     ├── README.md
     ├── .vim
     │   ├── autoload
