@@ -25,9 +25,6 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 ## some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -84,14 +81,15 @@ fi
 #fi
 
 ## dotfiles path
-MYDOTFILES="${HOME}/.profile.d/dotfiles"
+#MYDOTFILES="${HOME}/.profile.d/dotfiles"
 
 # Screenrc environment
-export SCREENRC="${MYDOTFILES}/screenrc"
+#export SCREENRC="${MYDOTFILES}/screenrc"
 
 # Bash History
-export HISTSIZE=5000
-export HISTFILESIZE=5000
+export HISTTIMEFORMAT="%d/%m/%y %T "
+export HISTSIZE=10000
+export HISTFILESIZE=10000
 export HISTFILE="$HOME/.bash_history_${HOSTNAME}"
 if [ "$UID" != 0 ]; then
     export HISTCONTROL="ignoreboth"   # ignores duplicate lines next to each other and lines with a leading space
