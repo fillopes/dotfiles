@@ -6,6 +6,7 @@ Dotfiles
 
     .
     ├── .bash_aliases
+    ├── .bash_profile
     ├── .bashrc
     ├── README.md
     ├── .vim
